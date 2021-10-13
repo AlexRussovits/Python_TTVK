@@ -32,38 +32,23 @@ for i in range(1, iterations + 1):
 print("Pi = ",pi)    
 '''
 
+import math
 #2 
 # Интресс
-'''
-M = int(input('Введите сумму, которую хотите занять: '))
-P = float(input('Введите проценты: '))
-K = int(input('Введите на сколько месяцев, хотите взять кредит: '))
-P_MONTH = P // 12
+int(input(": "))
+int(input(": "))
+int(input(": "))
+K = KuudeArv
+
+
+print("Month\t\tLoan_Amount\t\tLoan_Payment\t\tInterest_Payment\t\tRepayment_of_Principal\t\tThe_Final_Balance")
+
+for i in range(1,K+1):
+    #print(month, "month.\t\t",round(M_LOAN,2), "\t\t",round(M_PAYMENT,2), "\t\t",round(InterestPayment,2), "\t\t",round(x,2), "\t\t",round(M_LB,2), "\t\t")
+    
+                                                                                            
+
 
 #laenumakse=(laenu_summa*kuu_intress)/(1-1/(Math.pow((1+kuu_intress), aeg_kuudes)));
 
-'''
-
-
-su = float(input(" Ввести счёт данной суммы: "))
-intress = int(input(" Ввести процент интресса: "))
-'''
-# Первый вариант
-su = su + su*(intress/100)
-print ("Первый год: " + str(round(su,2)))
-su = su + su*(intress/100)
-print ("Второй год: " + str(round(su,2)))
-su = su + su*(intress/100)
-print ("Третий год: " + str(round(su,2)))
-su = su + su*(intress/100)
-print ("Четвёртый год: " + str(round(su,2)))
-su = su + su*(intress/100)
-print ("Пятый год: " + str(round(su,2)))
-print ("После пяти лет: " + str(round(su,2)))
-'''
-
-
-# Второй вариант
-su = su*(1 + intress/100)**12
-print("После одного года: " + str(round(su,2)))
 
