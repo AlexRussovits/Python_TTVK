@@ -1,6 +1,6 @@
 #1 Нарисовать Квадрат
 import random
-'''
+
 row = int(input('Количество строк: '))
 col = int(input('Количество столбцов: '))
           
@@ -8,7 +8,7 @@ for i in range(row):
     for j in range(col):
         print('*', end = " ")
     print()
-'''
+
 
 '''
 #2 Угадай число
